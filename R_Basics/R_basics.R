@@ -65,3 +65,8 @@ if(m > 1){
   print("Great!!!")
 }
 
+
+for(i in rnorm(100)){
+  print(i)
+}
+
