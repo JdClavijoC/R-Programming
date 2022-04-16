@@ -5,7 +5,7 @@ a = matrix(my.data, 4,5)
 a
 a[2,4]
 b = matrix(my.data, 4,5, byrow = T)
-b
+Tb
 
 r1 <- c("I", "am", "happy")
 r2 <- c("What", "a", "day")
@@ -35,6 +35,7 @@ Charlie[5]
 names(Charlie) <- NULL
 Charlie
 names(Charlie)
+file.
 
 
 #naming matrix dimensions 1

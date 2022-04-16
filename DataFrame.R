@@ -42,10 +42,25 @@ df[df$Country.Name=="Ethiopia",]
 my_df = data.frame(Countries_2012_Dataset, Codes_2012_Dataset,
                    Regions_2012_Dataset)
 
-
+a <- list("10", T, 5.6)
+is.character(a[1])
+is.logical(a[1])
+is.numeric(a[1])
+is.list(a[1])
 head(my_df)
 colnames(my_df) <- c("County", "Codes", "Regions")
 head(my_df)
+
+x <- as.Date("2018-10-1")
+
+month(x)
+months(x)
+attr(x)
+as.mont
+x <- c(21L, 43L, 52L)
+C <- median(X)
+typeof(C)
+
 
 my_df = data.frame(Country=Countries_2012_Dataset, Codes=Codes_2012_Dataset,
                    Regions=Regions_2012_Dataset)
